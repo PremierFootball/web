@@ -38,7 +38,7 @@ const Community = () => {
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
-                className="w-full h-full object-contain opacity-70"
+                className="w-full h-full object-contain opacity-85"
                 src={inicial}
                 alt="inicial"
               />
@@ -80,7 +80,7 @@ const Community = () => {
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
-                className="w-full h-full object-contain opacity-70"
+                className="w-full h-full object-contain opacity-85"
                 src={avanzado}
                 alt="avanzado"
               />
@@ -126,7 +126,7 @@ const Community = () => {
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
-                className="w-full h-full object-contain opacity-70"
+                className="w-full h-full object-contain opacity-85"
                 src={desarrollado}
                 alt="desarrollado"
               />
@@ -175,7 +175,7 @@ const Community = () => {
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
-                className="w-full h-full object-contain opacity-70"
+                className="w-full h-full object-contain opacity-85"
                 src={primera}
                 alt="primera"
               />
