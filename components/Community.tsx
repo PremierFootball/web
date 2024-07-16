@@ -1,4 +1,4 @@
-import { assetsImg, faoImg } from "@/public/assets";
+import { inicial, avanzado } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -18,8 +18,8 @@ const Community = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={assetsImg}
-                alt="assetsImg"
+                src={inicial}
+                alt="inicial"
               />
               <div className="absolute w-full h-full bg-textGreen/5 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -72,8 +72,8 @@ const Community = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={faoImg}
-                alt="faoImg"
+                src={avanzado}
+                alt="avanzado"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
