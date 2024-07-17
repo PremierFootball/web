@@ -20,13 +20,13 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="text-base md:max-w-[650px] text-textDark font-medium bg-black bg-opacity-50 rounded p-2"
         >
-          Premier Football Growth Group es una empresa emergente en el sector
-          del f&#250;tbol, dedicada a impulsar el crecimiento y desarrollo tanto
-          de instituciones deportivas como de jugadores. Nuestro objetivo es
+          Premier Football Growth es una empresa emergente en el sector del
+          f&#250;tbol, dedicada a impulsar el crecimiento y desarrollo tanto de
+          instituciones deportivas como de jugadores. Nuestro objetivo es
           identificar, invertir y nutrir talento futbol&#237;stico,
           llev&#225;ndolo a alcanzar su m&#225;ximo potencial y
           posicion&#225;ndolo en el m&#225;s alto nivel del f&#250;tbol mundial.{" "}
-          <a href="https://www.linkedin.com/in/garciatroisi/" target="_blank">
+          <a href="#" onClick={() => alert("En construcción")} target="_blank">
             {" "}
             <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
               Explore more.
