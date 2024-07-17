@@ -36,8 +36,8 @@ export default function Home() {
             <Banner />
             <Bussines />
             <Project />
-            <Community />
-            <Archive />
+            {/* <Community /> */}
+            {/* <Archive /> */}
             <Story />
             <Contact />
             <Footer />

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { TiArrowForward } from "react-icons/ti";
+import { TiStarburst } from "react-icons/ti";
 
 const Institucional = () => {
   return (
@@ -15,18 +15,22 @@ const Institucional = () => {
         </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Impulsando el Crecimiento y la Excelencia Deportiva
+        El f&uacute;tbol es un todo. PFG se ocupar&aacute; de desarrollarlo
+        todo.
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
-            <TiArrowForward />
+            <TiStarburst />
           </span>
-          Con una visi&oacute;n innovadora y una estrategia integral, trabajamos
-          estrechamente con clubes y academias para fortalecer sus estructuras
-          deportivas y administrativas. Proveemos asesoramiento experto,
-          recursos y tecnolog&iacute;a de punta para mejorar sus capacidades
-          operativas y competitivas.
+          Gesti&oacute;n de Derechos de F&uacute;tbol: Desde la cancha, la
+          oficina, hasta las redes sociales, b&uacute;squeda de sponsors y el
+          resto de actividades relacionadas con el producto f&uacute;tbol, la
+          empresa se ocupar&aacute; de que su club crezca y se transforme en una
+          instituci&oacute;n de &eacute;xito. Ganar no es solo dentro de la
+          cancha, se debe dar al club una estructura econ&oacute;mica,
+          organizativa y futbol&iacute;stica tal, que permita obtener resultados
+          de forma continua y permanente.
         </li>
       </ul>
     </motion.div>

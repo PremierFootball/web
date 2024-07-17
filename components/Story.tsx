@@ -1,8 +1,8 @@
 import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import HardSkillsList from "./HardSkillsList";
-import SoftSkillsList from "./SoftSkillsList";
+// import HardSkillsList from "./HardSkillsList";
+// import SoftSkillsList from "./SoftSkillsList";
 
 const Story = () => {
   return (
@@ -68,14 +68,14 @@ const Story = () => {
             .
           </p>
 
-          <p className="text-textLight mt-6">
+          {/* <p className="text-textLight mt-6">
             Here are a list of soft skills I have gained through my experience:
           </p>
           <SoftSkillsList />
           <p className="text-textLight mt-6">
             Here are a few technologies I have been working with:
           </p>
-          <HardSkillsList />
+          <HardSkillsList /> */}
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
