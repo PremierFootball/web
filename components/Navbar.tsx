@@ -14,17 +14,21 @@ const Navbar = () => {
     e.preventDefault();
     setShow(false);
     const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
+    const targetId = href.substring(href.indexOf("#") + 1);
     const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    });
-    // Update the class name of the clicked link
-    const links = document.querySelectorAll(".nav-link");
-    links.forEach((link) => {
-      link.classList.remove("active");
-    });
-    e.currentTarget.classList.add("active");
+
+    if (elem) {
+      elem.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      // Actualiza la clase del enlace clicado
+      const links = document.querySelectorAll(".nav-link");
+      links.forEach((link) => {
+        link.classList.remove("active");
+      });
+      e.currentTarget.classList.add("active");
+    } else {
+      console.error(`Elemento con ID '${targetId}' no encontrado.`);
+    }
   };
 
   function handleClick(e: any) {
@@ -89,7 +93,7 @@ const Navbar = () => {
                 Proyecto Deportivo
               </motion.li>
             </Link>
-            <Link
+            {/* <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#community"
               onClick={handleScroll}
@@ -101,7 +105,7 @@ const Navbar = () => {
               >
                 Comunidad
               </motion.li>
-            </Link>
+            </Link> */}
             <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#story"
@@ -196,7 +200,7 @@ const Navbar = () => {
                       Proyecto Deportivo
                     </motion.li>
                   </Link>
-                  <Link
+                  {/* <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#community"
                     onClick={handleScroll}
@@ -208,7 +212,7 @@ const Navbar = () => {
                     >
                       Comunidad
                     </motion.li>
-                  </Link>
+                  </Link> */}
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#story"

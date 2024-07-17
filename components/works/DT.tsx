@@ -1,7 +1,7 @@
-import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
+import { TiStarburst } from "react-icons/ti";
 
-const DesarrolloTalento = () => {
+const DT = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,27 +10,27 @@ const DesarrolloTalento = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Software Engineer
         <span className="text-textGreen tracking-wide">
-          Desarrollo de Talento
+          Direcci&oacute;n t&eacute;cnica
         </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Experiencia con muchos casos de &eacute;xito
+        Disfruta de ver el f&uacute;tbol bien entendido y ejecutado.
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
-            <TiArrowForward />
+            <TiStarburst />
           </span>
-          Descubrimos y formamos a los futbolistas j&oacute;venes con mayor
-          potencial, proporcion&aacute;ndoles la mejor formaci&oacute;n,
-          entrenamiento y exposici&oacute;n necesarios para destacar en el
-          &aacute;mbito profesional.
+          Nos encargamos de dirigir el plantel de primera o la categor&iacute;a
+          que deseen potenciar, no solo logrando el &eacute;xito deportivo, sino
+          tambi&eacute;n los objetivos puntuales del club, como potenciar
+          jugadores, desarrollar talento en posiciones espec&iacute;ficas del
+          campo, entre otros.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default DesarrolloTalento;
+export default DT;

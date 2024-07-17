@@ -1,12 +1,10 @@
 import { inicial, avanzado, desarrollado, primera } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { RxOpenInNewWindow } from "react-icons/rx";
-import { motion } from "framer-motion";
 
-const Community = () => {
+const Project = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="project" className="max-w-container mx-auto lgl:px-20 py-32 ">
       <SectionTitle
         title="Proyecto Deportivo"
         titleNo="02"
@@ -218,4 +216,4 @@ const Community = () => {
   );
 };
 
-export default Community;
+export default Project;
