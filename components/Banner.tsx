@@ -26,7 +26,10 @@ const Banner = () => {
           identificar, invertir y nutrir talento futbol&#237;stico,
           llev&#225;ndolo a alcanzar su m&#225;ximo potencial y
           posicion&#225;ndolo en el m&#225;s alto nivel del f&#250;tbol mundial.{" "}
-          <a href="#" onClick={() => alert("En construcción")} target="_blank">
+          <a
+            href="https://www.linkedin.com/company/premier-football-growth/"
+            target="_blank"
+          >
             {" "}
             <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
               Explore more.
