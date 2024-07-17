@@ -34,8 +34,8 @@ const Academy = () => {
           Otra modalidad es como asociado, donde PFG se responsabiliza de los
           costos del sistema de formaci&oacute;n del club contratante y a cambio
           el club otorgar&aacute; un porcentaje preestablecido de la
-          cesi&oacute;n de los derechos deportivos de los deportistas cuando
-          estos sean transferidos.
+          cesi&oacute;n de los derechos deportivos de los atletas cuando estos
+          sean transferidos.
         </li>
       </ul>
     </motion.div>

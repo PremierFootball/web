@@ -209,7 +209,7 @@ const Project = () => {
         <p>
           Estamos listos y preparados para poner en pr&aacute;ctica esta
           estrategia, convencidos de que los resultados futbol&iacute;sticos y
-          econ&oacute;micos son solo cuesti&oacute;n de tiempo de.
+          econ&oacute;micos son solo cuesti&oacute;n de tiempo.
         </p>
       </div>
     </section>
