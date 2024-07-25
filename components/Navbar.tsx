@@ -75,7 +75,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.2 }}
+                transition={{ duration: 0.1, delay: 0.1 }}
               >
                 Que hacemos?
               </motion.li>
@@ -114,9 +114,22 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.1 }}
+                transition={{ duration: 0.1, delay: 0.3 }}
               >
                 Sobre PFG
+              </motion.li>
+            </Link>
+            <Link
+              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              href="#team"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.4 }}
+              >
+                Equipo
               </motion.li>
             </Link>
             <Link
@@ -127,7 +140,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.4 }}
+                transition={{ duration: 0.1, delay: 0.5 }}
               >
                 Contacto
               </motion.li>
@@ -221,9 +234,22 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
                     >
                       Sobre PFG
+                    </motion.li>
+                  </Link>
+                  <Link
+                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    href="#team"
+                    onClick={handleScroll}
+                  >
+                    <motion.li
+                      initial={{ x: 20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.6, ease: "easeIn" }}
+                    >
+                      Equipo
                     </motion.li>
                   </Link>
                   <Link
@@ -234,7 +260,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
                     >
                       Contacto
                     </motion.li>
