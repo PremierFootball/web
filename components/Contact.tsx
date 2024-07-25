@@ -6,7 +6,7 @@ const Contact = () => {
     >
       <div className="flex flex-col items-center justify-center h-full text-center">
         <p className="font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide">
-          04. ¿Qu&eacute; sigue?
+          05. ¿Qu&eacute; sigue?
         </p>
         <h2 className="font-titleFont text-5xl font-semibold my-4 text-center">
           Tengamos una charla
