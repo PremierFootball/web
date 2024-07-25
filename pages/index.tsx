@@ -11,6 +11,7 @@ import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
             {/* <Community /> */}
             {/* <Archive /> */}
             <Story />
+            <Team />
             <Contact />
             <Footer />
           </div>
