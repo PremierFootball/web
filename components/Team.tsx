@@ -16,7 +16,7 @@ const Team = () => {
   const teamMembers: TeamMemberData[] = [
     {
       name: "Rodrigo García",
-      position: "CFO - Chief Football Officer",
+      position: "Chief Football Officer",
       description:
         "Enfocado en la estrategia deportiva, formación de juveniles y la gestión técnica del equipo.",
       image: rodrigoImg,
@@ -24,7 +24,7 @@ const Team = () => {
     },
     {
       name: "Diego García",
-      position: "COO - Chief Operations Officer",
+      position: "Chief Operations Officer",
       description:
         "Encargado de la gestión general de la empresa, optimización de procesos y supervisión de operaciones diarias.",
       image: diegoImg,
