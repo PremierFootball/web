@@ -8,9 +8,9 @@ import Institucional from "./works/Institucional";
 import Academy from "./works/Academy";
 
 const Bussines = () => {
-  const [workInstitucional, setWorkInstitucional] = useState(true);
+  const [workDT, setWorkDT] = useState(true);
   const [workAcademy, setWorkAcademy] = useState(false);
-  const [workDT, setWorkDT] = useState(false);
+  const [workInstitucional, setWorkInstitucional] = useState(false);
   const [workIndividualDevelopment, setWorkIndividualDevelopment] =
     useState(false);
   const [workConsultancy, setWorkConsultancy] = useState(false);
@@ -64,6 +64,16 @@ const Bussines = () => {
         <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
           <ul className="md:w-32 flex flex-col">
             <li
+              onClick={handleDT}
+              className={`${
+                workDT
+                  ? "border-l-textGreen text-textGreen"
+                  : "border-l-hoverColor text-textDark"
+              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            >
+              Direcci&oacute;n t&eacute;cnica
+            </li>
+            <li
               onClick={handleInstitucional}
               className={`${
                 workInstitucional
@@ -82,16 +92,6 @@ const Bussines = () => {
               } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               Gesti&oacute;n de la Academia
-            </li>
-            <li
-              onClick={handleDT}
-              className={`${
-                workDT
-                  ? "border-l-textGreen text-textGreen"
-                  : "border-l-hoverColor text-textDark"
-              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-            >
-              Direcci&oacute;n t&eacute;cnica
             </li>
             <li
               onClick={handleIndividualDevelopment}

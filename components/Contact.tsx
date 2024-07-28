@@ -13,9 +13,8 @@ const Contact = () => {
         </h2>
         <p className="max-w-[600px] text-center text-textDark">
           Estamos siempre abiertos a explorar nuevos desaf&iacute;os y
-          oportunidades donde podamos contribuir como desarrolladores o
-          consultores. No dudes en contactarnos si tienes alguna pregunta o
-          simplemente quieres conectar.
+          oportunidades en los que podamos contribuir. No dudes en contactarnos
+          si tienes alguna pregunta o simplemente quieres conectar.
         </p>
 
         <div className="mt-8">
