@@ -1,6 +1,7 @@
 import logo from "./images/logo.png";
 import profileImg from "./images/profile.jpeg";
 import diegoImg from "./images/diego.jpg";
+import fedeImg from "./images/fede.jpeg";
 import rodrigoImg from "./images/rodrigo.png";
 import inicial from "./images/inicial.jpg";
 import avanzado from "./images/avanzado.jpg";
@@ -12,6 +13,7 @@ export {
   profileImg,
   diegoImg,
   rodrigoImg,
+  fedeImg,
   inicial,
   avanzado,
   desarrollado,
