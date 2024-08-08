@@ -1,5 +1,5 @@
 // components/Team.tsx
-import { diegoImg, rodrigoImg, profileImg } from "@/public/assets";
+import { diegoImg, rodrigoImg, fedeImg } from "@/public/assets";
 import SectionTitle from "./SectionTitle";
 import TeamMember from "./TeamMember";
 import { StaticImageData } from "next/image";
@@ -30,7 +30,14 @@ const Team = () => {
       image: diegoImg,
       linkedin: "https://www.linkedin.com/in/garciatroisi/",
     },
-
+    {
+      name: "Federico Canabal",
+      position: "Chief Business Development Officer",
+      description:
+        "Lider de estrategias de crecimiento, generador de alianzas estratégicas y director de expansión hacia nuevos mercados.",
+      image: fedeImg,
+      linkedin: "https://www.linkedin.com/in/federico-canabal-a21912b9/",
+    },
     // Agrega más miembros del equipo aquí
   ];
 
