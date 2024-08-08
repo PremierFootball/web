@@ -34,7 +34,7 @@ const Team = () => {
       name: "Federico Canabal",
       position: "Chief Business Development Officer",
       description:
-        "Lider de estrategias de crecimiento, generador de alianzas estratégicas y director de expansión hacia nuevos mercados.",
+        "Lider de alianzas estratégicas, crecimiento y expansión hacia nuevos mercados. Director de Marketing.",
       image: fedeImg,
       linkedin: "https://www.linkedin.com/in/federico-canabal-a21912b9/",
     },
