@@ -2,6 +2,10 @@
 
 This is my web portfolio repository where I share information about myself and showcase some of my featured projects.
 
+## WEB URI
+
+https://premierfootball.github.io/web/
+
 ## About
 
 In this portfolio, you can find details about my experience, skills, education, and other relevant aspects of my professional career. Additionally, you'll find links to my social media profiles and other contact methods.

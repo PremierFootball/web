@@ -32,6 +32,7 @@ module.exports = {
         darkGoldColor: "#7F6C00",
         darkBlueColor: "#202040",
         darkGreenColor: "#1a3d1a",
+        darkBlue: "#183263",
         hoverColor: "rgba(100,255,218,0.1)",
       },
       fontFamily: {

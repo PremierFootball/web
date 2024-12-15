@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import JoinClubButton from "@/components/JoinClubButton";
 
 const Banner = () => {
   return (
@@ -6,6 +7,7 @@ const Banner = () => {
       <div className="absolute inset-0 bg-black opacity-60"></div>{" "}
       {/* Overlay oscuro */}
       <div className="relative max-w-contentContainer mx-auto py-20 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+        <JoinClubButton />
         <motion.h1
           initial={{ y: 6, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -21,11 +23,11 @@ const Banner = () => {
           className="text-base md:max-w-[650px] text-textDark font-medium bg-black bg-opacity-50 rounded p-2"
         >
           En <span className="text-textGreen">Premier Football Growth </span>{" "}
-          nos dedicados a impulsar el crecimiento y desarrollo tanto de
+          nos dedicamos a impulsar el crecimiento y desarrollo tanto de
           instituciones deportivas como de jugadores. Nuestro objetivo es
-          identificar, invertir y nutrir talento futbol&#237;stico,
-          llev&#225;ndolo a alcanzar su m&#225;ximo potencial y
-          posicion&#225;ndolo en el m&#225;s alto nivel del f&#250;tbol mundial.
+          identificar, invertir y nutrir talento futbolístico, llevándolo a
+          alcanzar su máximo potencial y posicionándolo en el más alto nivel del
+          fútbol mundial.
         </motion.p>
       </div>
     </section>
